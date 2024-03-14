@@ -1,7 +1,7 @@
 ## Here are some beginner-friendly project ideas that cover various aspects of Python programming:
 ### 1.	Simple Calculator: 
-Create a command-line calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division. the user input should should be two numbers with the operator, which means you should use only one input statement and the user should enter an input that looks like this "num1*num2"
-1234*3456
+Create a command-line calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division. the user input should should be two numbers with the operator, which means you should use only one input statement and the user should enter an input that looks like this "num1\*num2"
+1234\*3456
 
 ### 2.	To-Do List Application: 
 Develop a to-do list application where users can add tasks, mark them as completed, and remove them. You can use lists or dictionaries to store tasks and provide options for users to interact with the list. use fancy decorators. 
@@ -21,5 +21,5 @@ Build a simple chatbot that responds to user input with predefined messages. You
 ### 7.	Dice Rolling Simulator: 
 Create a program that simulates rolling dice. Allow users to specify the number of dice and the number of sides on each die. Display the results of each roll and calculate the total sum.
 
-### 10.	Personal Budget Tracker: 
+### 8.	Personal Budget Tracker: 
 Develop a simple budget tracker that allows users to input their income and expenses. Calculate the total balance and display it along with a breakdown of expenses by category.
