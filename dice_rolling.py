@@ -13,7 +13,7 @@ def Random_number_generator():
                  continue
             
             if guess == guess_2:
-                print("YOu got it right")
+                print("You got it right")
                 return
             elif guess_2 > guess:
                 print("your number is too huge")
