@@ -1,0 +1,6 @@
+name =input("hi!, what is your name: - ")
+print("hey!",name,"how are you: - ")
+ask =input("how are you: - ")
+print("great")
+question =input("what do you want: - ")
+print("ok whenever you want you can call me lala am your AI bot")
