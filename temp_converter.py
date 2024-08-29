@@ -1,5 +1,3 @@
-
-# 
 ask=input("enter temp: - ")
 
 
@@ -11,7 +9,6 @@ def temp(ask):
             return((1.8*number)+32)
       if unit =="f":
             return((number-32))
-      
       
 result=temp
 print(result)
