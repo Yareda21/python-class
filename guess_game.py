@@ -1,4 +1,4 @@
- import random
+import random
 import time
 def Random_number_generator():
         guess = (random.randint(0,100))  
