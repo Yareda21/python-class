@@ -1,12 +1,12 @@
 # this is where you declare all the class
 
 class Person:
-      def __init__(self, name, gender, age, color, height):
-            self.name = name
-            self.gender = gender
-            self.age = age
-            self.color=color
-            self.height=height
+            def __init__(self, name, gender, age, color, height):
+                  self.name = name
+                  self.gender = gender
+                  self.age = age
+                  self.color=color
+                  self.height=height
 
 
 
