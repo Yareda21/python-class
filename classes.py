@@ -50,8 +50,4 @@ class Bottle:
 voss=Bottle("circular","voss")
 print(voss.shape,voss.brand)
       
-            
-
-
-
-            
+      
