@@ -5,13 +5,15 @@ responses = [
         1: "hello",
         2: "hi",
         3: "how are you"
-    }
-]
-responses_2 = [
+    },
     {
         1: "I am fine, thank you, and you?",
         2: "I am fine, bro.",
         3: "Fine, fine."
+    },
+    {
+        1:"Thats good",
+        2:"I am glad to hear that",
     }
 ]
 
@@ -21,11 +23,13 @@ def get_response(user_input):
     if "hello" in user_input or "hi" in user_input:
         return responses[0][random.randint(1, 3)]
     elif "how are you" in user_input or "how r u" in user_input:
-        return responses_2[0][random.randint(1, 3)]
+        return responses[1][random.randint(1, 3)]
     elif "bye" in user_input:
         return "Goodbye! Have a great day!"
-    elif "thank" in user_input:
+    elif "thank you!" in user_input:
         return "You're welcome!"
+    elif "Fine" in user_input or "i am good " in user_input:
+        return responses[2][random.randint(1,2)]
     else:
         return "I'm sorry, I don't understand that."
 
