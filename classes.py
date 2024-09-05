@@ -34,3 +34,34 @@ if __name__ == "__main__":
         run_dice_roller()
     else:
         print("Invalid choice!")
+
+
+from temp_converter import TemperatureConverter
+from budget_tracker import BudgetTracker
+
+def run_temperature_converter():
+    temp_converter = TemperatureConverter(25)  # Initial temperature in Celsius
+    print(f"Temperature in Fahrenheit: {temp_converter.fahrenheit}")  # Output: 77.0
+    print(f"Temperature in Kelvin: {temp_converter.kelvin}")  # Output: 298.15
+
+    temp_converter.fahrenheit = 32  # Set to freezing point in Fahrenheit
+    print(f"Updated temperature in Celsius: {temp_converter.celsius}")  # Output: 0.0
+
+def run_budget_tracker():
+    budget = BudgetTracker()
+    budget.add_income(5000)  # Add income
+    budget.add_expense(1500)  # Add expense
+    print(f"Current balance: ${budget.balance}")  # Output: 3500
+
+if __name__ == "__main__":
+    print("Select an option:")
+    print("1. Temperature Converter")
+    print("2. Budget Tracker")
+    choice = input("Enter choice (1/2): ")
+
+    if choice == '1':
+        run_temperature_converter()
+    elif choice == '2':
+        run_budget_tracker()
+    else:
+        print("Invalid choice!")
