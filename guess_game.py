@@ -1,21 +1,24 @@
-### 3.	Guess the Number Game: 
-#Implement a simple number guessing game where the computer generates a random number, and the player tries to guess it. Provide hints like "too high" or "too low" after each guess, and keep track of the number of attempts.
+import random 
+while True:
+    print("Welcome & lets start the game")
+    number = random.randint(1 , 100)
+    counter = 0
+    while counter < 100:
+                    guess = int(input("enter your guess: _"))
+                    if number == guess:
+                        print("You guess correct")
+                        break
 
-counter = 0
-
-while counter < 4: 
-
-    number = 7
-    
-    guess = int(input("enter your guess: _"))
-    if number == guess:
-        print("you guessed correct")
-        break
-
-        
-    elif number != guess: 
-        
-        print("the guess is wrong") 
-        counter += 1
-        
-                
+                    elif number < guess:
+                        print("Guess lower:")
+                        counter += 1
+                    
+                    elif number > guess:
+                        print("Guess higher:")    
+                        counter += 1
+    print("Game over!!!")                       
+    gamer = input("do want to continue:_")
+    if gamer == "no":
+          quit()
+    elif gamer == "yes":
+          continue 

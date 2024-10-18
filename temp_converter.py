@@ -14,3 +14,5 @@ else: custemer == "c"
 tempc = int(input("enter number:_"))
 f =9.5 + tempc
 print(f,"°f")
+
+
